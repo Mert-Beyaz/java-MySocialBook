@@ -1,0 +1,177 @@
+-----------------------
+Command: ADDUSER	Adnan	adnan	adnan1	01/01/1991	Selcuk Universitesi
+Adnan has been successfully added.
+-----------------------
+Command: REMOVEUSER	1
+User has been successfully removed.
+-----------------------
+Command: SIGNIN	cemil	cemil1
+-----------------------
+Command: SIGNIN	adnan	adnan1
+You have successfully signed in.
+-----------------------
+Command: LISTUSERS
+Name: Demet
+Username: demet
+Date of  Birth: 16/01/1999
+Username: Ankara Fen Lisesi
+---------------------------
+Name: Zeki
+Username: zeki
+Date of  Birth: 16/08/1987
+Username: Kadikoy Lisesi
+---------------------------
+Name: Gizem
+Username: gizem
+Date of  Birth: 09/12/1997
+Username: Hacettepe Universitesi
+---------------------------
+Name: Utku
+Username: utku
+Date of  Birth: 06/10/1999
+Username: Bilkent Universitesi
+---------------------------
+Name: Hakan
+Username: hakan
+Date of  Birth: 01/03/1981
+Username: Mugla S.K. Üniversitesi
+---------------------------
+Name: Adnan
+Username: adnan
+Date of  Birth: 01/01/1991
+Username: Selcuk Universitesi
+---------------------------
+-----------------------
+Command: UPDATEPROFILE	Adnan	07/01/1991	Gazi University
+-----------------------
+Command: CHPASS	adnan123	adnan1234
+Password mismatch!
+-----------------------
+Command: CHPASS	adnan1	adnan123
+-----------------------
+Command: ADDFRIEND	ahmet
+No such user!
+-----------------------
+Command: ADDFRIEND	demet
+demet has been successfully added to your friend list.
+-----------------------
+Command: ADDFRIEND	demet
+This user is already in your friend list!
+-----------------------
+Command: ADDFRIEND	gizem
+gizem has been successfully added to your friend list.
+-----------------------
+Command: ADDFRIEND	utku
+utku has been successfully added to your friend list.
+-----------------------
+Command: ADDFRIEND	ziya
+No such user!
+-----------------------
+Command: REMOVEFRIEND	zeki
+No such friend!
+-----------------------
+Command: REMOVEFRIEND	ziya
+Error: Please sign in and try again.
+-----------------------
+Command: REMOVEFRIEND	utku
+utku has been successfully removed from your friend list.
+-----------------------
+Command: LISTFRIENDS
+Name: Demet
+Username: demet
+Date of  Birth: 16/01/1999
+Username: Ankara Fen Lisesi
+---------------------------
+Name: Gizem
+Username: gizem
+Date of  Birth: 09/12/1997
+Username: Hacettepe Universitesi
+---------------------------
+-----------------------
+Command: ADDPOST-TEXT	This is my 1st text post	39.2	32.81	ahmet
+ahmet is not your friend, and will not be tagged!
+The post has been successfully added.
+-----------------------
+Command: ADDPOST-IMAGE	This is my 1st image post	37.87	32.46	demet:gizem	image.png	135x250
+The post has been successfully added.
+-----------------------
+Command: ADDPOST-VIDEO	This is my 1st video post	40.87	29.24	utku:gizem	myvideo.avi	8
+utku is not your friend, and will not be tagged!
+The post has been successfully added.
+-----------------------
+Command: ADDPOST-TEXT	This is my 2nd text post	38.35	33.1	demet:gizem:utku
+utku is not your friend, and will not be tagged!
+The post has been successfully added.
+-----------------------
+Command: REMOVELASTPOST
+Your last post has been successfully removed.
+-----------------------
+Command: SHOWPOSTS	adnan
+**************
+Adnan's Posts
+**************
+This is my 1st text post
+Date: Mon May 03 22:33:38 EET 2021
+Location: 32.81, 39.2
+----------------------
+This is my 1st image post
+Date: Mon May 03 22:33:38 EET 2021
+Location: 32.46, 37.87
+Friends tagged in this post: Demet, Gizem
+Image: image.png
+Image resolution: 135x250
+----------------------
+This is my 1st video post
+Date: Mon May 03 22:33:38 EET 2021
+Location: 29.24, 40.87
+Friends tagged in this post: Gizem
+Video: myvideo.avi
+Video duration: 8.0 minutes
+----------------------
+-----------------------
+Command: BLOCK	demet
+demet has been successfully blocked.
+-----------------------
+Command: BLOCK	gizem
+gizem has been successfully blocked.
+-----------------------
+Command: BLOCK	ahmet
+No such user!
+-----------------------
+Command: SHOWBLOCKEDFRIENDS
+Name: Demet
+Username: demet
+Date of  Birth: 16/01/1999
+Username: Ankara Fen Lisesi
+---------------------------
+Name: Gizem
+Username: gizem
+Date of  Birth: 09/12/1997
+Username: Hacettepe Universitesi
+---------------------------
+-----------------------
+Command: UNBLOCK	ziya
+No such user!
+-----------------------
+Command: UNBLOCK	gizem
+gizem has been successfully unblocked.
+-----------------------
+Command: UNBLOCK	gizem
+No such user in your blocked-user list!
+-----------------------
+Command: SHOWBLOCKEDFRIENDS
+Name: Demet
+Username: demet
+Date of  Birth: 16/01/1999
+Username: Ankara Fen Lisesi
+---------------------------
+-----------------------
+Command: SHOWBLOCKEDUSERS
+Name: Demet
+Username: demet
+Date of  Birth: 16/01/1999
+Username: Ankara Fen Lisesi
+---------------------------
+-----------------------
+Command: SIGNOUT
+You have successfully signed out.
